@@ -69,18 +69,44 @@ body {
   text-align: left;
 }
 
-.flex-container {
+/* Hero Section */
+.hero {
   display: flex;
   align-items: center;
-  background-color: transparent;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  padding: 4rem 8%;
+  background-color: #0d0514; /* dark background */
+  color: white;
 }
 
-.flex-container > div {
-  background-color: transparent;
-  color: white;
-  margin: 10px;
-  text-align: center;
-  line-height: 50px;
-  font-size: 30px;
+/* Left content (text) */
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+  max-width: 90%;
+}
+
+/* Right content (image) */
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
 }
