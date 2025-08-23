@@ -35,7 +35,7 @@ body {
   gap: 2rem;
   list-style: none;
   padding: 0.5rem 2rem;
-  border: 1px solid #3d0a59;
+  border: 1px solid #4aaaf9;
   border-radius: 50px;
   background: transparent;
 }
@@ -144,11 +144,6 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-.dropdown:hover .dropbtn {
-  background-color: #340863;
-}
-
 
 /* Hero */
 .hero {
