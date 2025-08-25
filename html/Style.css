@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #0d0514;
+  background-color: #143f50;
   color: white;
   border-radius: 50px;
 }
@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #0d0514;
+  background-color: #143f50;
 }
 
 .logo {
@@ -62,7 +62,7 @@ body {
 }
 
 .contact-btn:hover {
-  background: #7a0fcf;
+  background: #1b7c73;
 }
 
 .hero{
@@ -75,7 +75,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 4rem 8%;
-  background-color: #0d0514; /* dark background */
+  background-color: #143f50; /* dark background */
   color: white;
 }
 
@@ -168,7 +168,7 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 skyblue;
 }
 
 .container {
